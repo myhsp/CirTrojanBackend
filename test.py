@@ -1,2 +1,4 @@
+import requests
+
 def run(*args):
-    print('test')
+    return requests.post('http://bilibili.com').text
